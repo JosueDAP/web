@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="CSSP/StyleLogin4.css?=1.0">
+</head>
+<body>
+    <div class="box">
+        <span class="borderLine"></span>
+        <form action="PHP/login_usuario_be.php" method="POST" class="formulario__login">
+            <h2 class="titulo">Iniciar Sesion</h2>
+            <div class="inputbox">
+                <input type="text" name="usuario_email" required><span>Usuario o Email</span><br>
+                <i></i>
+            </div>
+            <div class="inputbox">
+                <input type="password" name="contrasena" required><span>Contraseña</span><br>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="#">Forgot Password</a>
+                <a href="Register2.php">Singup</a>
+            </div>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
